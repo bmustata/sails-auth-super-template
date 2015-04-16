@@ -1,0 +1,46 @@
+<div class="container" xmlns="http://www.w3.org/1999/html">
+  <div class="row"></div>
+  <div class="col-md-4 col-md-offset-4">
+
+    <div class="auth-cont clearfix">
+        <a href="/">
+          <img class="close-icon" src="/images/close-icon.png">
+        </a>
+        <p class="text header">Welcome back!</p>
+        <p class="text subheader">Log into your account in here</p>
+
+      <form action="/auth/login" method="post">
+        <div class="email-container clearfix">
+          <img class="email-icon" src="/images/email-icon.png">
+          <input type="email" name="username" spellcheck="false" class="email-field" placeholder="Email address" type="text">
+        </div>
+
+        <div class="password-container clearfix">
+          <img class="password-icon" src="/images/password-icon.png">
+          <input type="password" name="password" spellcheck="false" class="pass-field" placeholder="Password" type="text">
+        </div>
+
+        <input type="submit" class="login-btn" value="Log in">
+        <div class="clearfix"></div>
+      </form>
+
+      <% if (enableTwitterAuth || enableTwitterAuth || enableFacebookAuth) { %>
+      <p class="text usersocial">Or use your social account</p>
+      <% } %>
+
+      <% if (enableTwitterAuth) { %>
+      <a class="sociallogin-btn sociallogin-twitter" href="/auth/twitter">Sign in with Twitter</a>
+      <% } %>
+
+      <% if (enableFacebookAuth) { %>
+      <a class="sociallogin-btn sociallogin-facebook" href="/auth/facebook">Sign in with Facebook</a>
+      <% } %>
+
+      <p class="text signup">Dont' have an account? <a href="/auth/signup">Sign up</a></p>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<img class="grass-image" src="/images/grass.png">

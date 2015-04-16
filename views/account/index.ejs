@@ -1,0 +1,34 @@
+<div class="accountmenu-container clearfix">
+  <p class="appname-text"><a href="/">Sails-Auth</a></p>
+
+  <div class="user-box dropdown clearfix">
+    <a id="account-btn" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <div class="user-circle clearfix">
+        <p class="user-text"><%= accountLabel %></p>
+      </div>
+      <img class="arrow-image" src="/images/arrow-icon.png">
+    </a>
+     <ul class="dropdown-menu dropdown-menu-account" role="menu" aria-labelledby="account-btn">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/account/">Profile</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/auth/logout">Log Out</a></li>
+     </ul>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row"></div>
+  <div class="col-md-12">
+
+    <p class="share-text">Accounts: <b> <%= usersFound %> users authenticated</b> (<%= localUsers %> local users, <%= fbUsers %> Facebook users, <%= twUsers %> Twitter users)</p>
+    <p class="share-text"><b>If you like our Sails.js Auth Template please share it!</b></p>
+
+    <a class="twitter-share" href="<%= twitterShareMessage %>">Share on Twitter</a>
+    <a class="fb-share" href="<%= facebookShareMessage %>">Share on Facebook</a>
+
+    <img class="sails-js-image sails-js-image-2" src="/images/sails-js.png">
+
+  </div>
+</div>
+</div>
+
+<img class="grass-image" src="/images/grass.png">

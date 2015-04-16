@@ -1,0 +1,39 @@
+<div class="container" xmlns="http://www.w3.org/1999/html">
+  <div class="row"></div>
+  <div class="col-md-4 col-md-offset-4">
+
+    <div class="auth-cont clearfix">
+      <a href="/">
+        <img class="close-icon" src="/images/close-icon.png">
+      </a>
+      <p class="text header">Sign up you account!!</p>
+      <p class="text subheader">Please provide your profile information so<br>we can creat your account.</p>
+
+      <form action="/auth/signup" method="post">
+        <div class="username-container clearfix">
+          <img class="person-icon" src="/images/user-icon.png">
+          <input name="fullName" class="email-field" placeholder="Your full name" type="text">
+        </div>
+
+        <div class="email-container clearfix">
+          <img class="email-icon" src="/images/email-icon.png">
+          <input name="email" class="email-field" placeholder="Email address" type="text">
+        </div>
+
+        <div class="password-container clearfix">
+          <img class="password-icon" src="/images/password-icon.png">
+          <input name="password" class="pass-field" placeholder="Password" type="text">
+        </div>
+
+        <input type="submit" class="create-btn" value="Create account">
+        <div class="clearfix"></div>
+      </form>
+
+      <p class="text signup text-7">Already have an account? <a href="/auth/login">Sign in</a></p>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<img class="grass-image" src="/images/grass.png">
