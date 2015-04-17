@@ -26,7 +26,7 @@ We are building a lot of internal projects and external projects like Startup MV
 - Run `npm install` to install dependencies
 - Run 'bower install' to install frond-end packages
 - Start / Install your MongoDB
-- Setup your MongoDB settings in `config/env/development.js` or 'config/env/production.js'
+- Setup your MongoDB settings in `config/env/development.js` or `config/env/production.js`
 - Enable your strategies in the previous config file:
     - Local Strategy: `enableLocalAuth: true/false`
     - Twitter Strategy: `enableTwitterAuth: true/false`

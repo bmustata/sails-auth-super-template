@@ -51,6 +51,12 @@ body {
     z-index: 4;
     width: 160px;
     margin: 10px 0 0 1%;
+    text-decoration: none;
+}
+
+.fb-share:hover {
+    color: #aaa;
+    text-decoration: none;
 }
 
 .twitter-share {
@@ -68,6 +74,12 @@ body {
     color: rgb(255, 255, 255);
     width: 150px;
     margin: 10px 0 0 5%;
+    text-decoration: none;
+}
+
+.twitter-share:hover {
+    color: #aaa;
+    text-decoration: none;
 }
 
 .sails-js-image {
