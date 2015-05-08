@@ -1,6 +1,9 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 
 # sails-auth-super-template
+
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/bmustata/icenodes?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
 Sails.js Email/Social Auth full template to make it super easy to start a new project.
 Currently we support:
 - Local authentication with email and user signup
@@ -45,6 +48,6 @@ Copyright &copy; 2014-2015 [ICENodes](http://icenodes.com). Licensed under the t
 - [Twitter](https://twitter.com/sailsjs)
 - [Node.js Development and Consulting](http://icenodes.com)
 - [Tutorials](https://github.com/balderdashy/sails-docs/blob/master/FAQ)
-- <a href="http://sailsjs.org" target="_blank" title="Node.js framework for building realtime APIs."><img src="https://github-camo.global.ssl.fastly.net/9e49073459ed4e0e2687b80eaf515d87b0da4a6b/687474703a2f2f62616c64657264617368792e6769746875622e696f2f7361696c732f696d616765732f6c6f676f2e706e67" width=60 alt="Sails.js logo (small)"/></a>
+- [Sails.js](http://sailsjs.org/)
 
 Provided by ICENodes - www.icenodes.com
