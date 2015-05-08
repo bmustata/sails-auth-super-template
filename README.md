@@ -16,6 +16,10 @@ You can see the demo at http://sails-auth-super-template.icenodes.com
 
 We are building a lot of internal projects and external projects like Startup MVPs and we need it a base template for our authentication and authorization project with support for Twitter/Facebook login.
 
+# Screenshots
+
+![Sails Auth Login Screen](/screenshot/screenshot-demo.jpg?raw=true "Sails Auth Login Screen")
+
 # Requirements
 
 - Sails.js >= 0.11.0
