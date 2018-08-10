@@ -2,8 +2,6 @@
 
 # sails-auth-super-template
 
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/bmustata/icenodes?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-
 Sails.js Email/Social Auth full template to make it super easy to start a new project.
 Currently we support:
 - Local authentication with email and user signup
@@ -25,6 +23,10 @@ We are building a lot of internal projects and external projects like Startup MV
 - Sails.js >= 0.11.0
 - Node.js >= 0.10.0
 - MongoDB
+
+# Tools
+
+[MockupsJar - Free Online Mockup Generator](https://mockupsjar.com/)
 
 # Quick start
 
